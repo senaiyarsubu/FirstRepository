@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="gittestFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/gitTest" doc:name="HTTP"/>
         <logger message="#[payload]" level="INFO" doc:name="Logger"/>
+        <logger message="logger 2" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
