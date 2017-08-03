@@ -14,5 +14,6 @@ http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/m
         <logger message="logger 2" level="INFO" doc:name="Logger"/>
         <logger message="Logger 3" level="INFO" doc:name="Logger"/>
         <logger level="INFO" doc:name="sub"/>
+        <logger message="Logger 5" level="INFO" doc:name="sup"/>
     </flow>
 </mule>
